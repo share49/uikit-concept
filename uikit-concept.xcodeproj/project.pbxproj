@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1146F32821A7EA0069BE6B /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */; };
+		DB1146F72821BD1B0069BE6B /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146F62821BD1B0069BE6B /* ProductsViewModel.swift */; };
+		DB1146F82821BD1B0069BE6B /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146F62821BD1B0069BE6B /* ProductsViewModel.swift */; };
+		DB1146FB2821C48E0069BE6B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FA2821C48E0069BE6B /* Product.swift */; };
+		DB1146FC2821C48E0069BE6B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FA2821C48E0069BE6B /* Product.swift */; };
+		DB1146FF2821D5A50069BE6B /* ProductsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FD2821D5A50069BE6B /* ProductsViewModelTests.swift */; };
 		DB2D250A28204F3B00DA2D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250928204F3B00DA2D34 /* AppDelegate.swift */; };
 		DB2D250C28204F3B00DA2D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */; };
-		DB2D250E28204F3B00DA2D34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250D28204F3B00DA2D34 /* ViewController.swift */; };
-		DB2D251128204F3B00DA2D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2D250F28204F3B00DA2D34 /* Main.storyboard */; };
+		DB2D250E28204F3B00DA2D34 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */; };
 		DB2D251328204F3C00DA2D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2D251228204F3C00DA2D34 /* Assets.xcassets */; };
 		DB2D251628204F3C00DA2D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2D251428204F3C00DA2D34 /* LaunchScreen.storyboard */; };
-		DB2D252128204F3C00DA2D34 /* uikit_conceptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D252028204F3C00DA2D34 /* uikit_conceptTests.swift */; };
+		DB2D252128204F3C00DA2D34 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D252028204F3C00DA2D34 /* NetworkServiceTests.swift */; };
+		DB2D253A282053E400DA2D34 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D2539282053E400DA2D34 /* NetworkService.swift */; };
+		DB89BA622820C604000CBEA5 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = DB89BA612820C604000CBEA5 /* transactions.json */; };
+		DB89BA632820C604000CBEA5 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = DB89BA612820C604000CBEA5 /* transactions.json */; };
+		DB89BA652820D582000CBEA5 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA642820D582000CBEA5 /* Endpoint.swift */; };
+		DB89BA662820D582000CBEA5 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA642820D582000CBEA5 /* Endpoint.swift */; };
+		DB89BA682820D59E000CBEA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA672820D59E000CBEA5 /* Constants.swift */; };
+		DB89BA692820D59E000CBEA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA672820D59E000CBEA5 /* Constants.swift */; };
+		DB89BA6C2820DAA9000CBEA5 /* URLSession+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA6B2820DAA9000CBEA5 /* URLSession+Ext.swift */; };
+		DB89BA6D2820DAA9000CBEA5 /* URLSession+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89BA6B2820DAA9000CBEA5 /* URLSession+Ext.swift */; };
+		DBA9BAFC28205A190029DECF /* rates.json in Resources */ = {isa = PBXBuildFile; fileRef = DBC4B1952820565E00D86E17 /* rates.json */; };
+		DBB578932820C52600B1C589 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB578922820C52600B1C589 /* Transaction.swift */; };
+		DBB578942820C58C00B1C589 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB578922820C52600B1C589 /* Transaction.swift */; };
+		DBC4B1962820565E00D86E17 /* rates.json in Resources */ = {isa = PBXBuildFile; fileRef = DBC4B1952820565E00D86E17 /* rates.json */; };
+		DBC4B199282056AE00D86E17 /* ConversionRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4B198282056AE00D86E17 /* ConversionRate.swift */; };
+		DBC4B19E2820571A00D86E17 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4B19C2820571400D86E17 /* MockNetworkService.swift */; };
+		DBC4B19F2820573A00D86E17 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D2539282053E400DA2D34 /* NetworkService.swift */; };
+		DBC4B1A0282057AC00D86E17 /* ConversionRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4B198282056AE00D86E17 /* ConversionRate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1146F62821BD1B0069BE6B /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		DB1146FA2821C48E0069BE6B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DB1146FD2821D5A50069BE6B /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
 		DB2D250628204F3B00DA2D34 /* uikit-concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-concept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2D250928204F3B00DA2D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB2D250D28204F3B00DA2D34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB2D251028204F3B00DA2D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		DB2D251228204F3C00DA2D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2D251528204F3C00DA2D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB2D251728204F3C00DA2D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB2D251C28204F3C00DA2D34 /* uikit-conceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uikit-conceptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB2D252028204F3C00DA2D34 /* uikit_conceptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_conceptTests.swift; sourceTree = "<group>"; };
+		DB2D252028204F3C00DA2D34 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		DB2D2539282053E400DA2D34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DB89BA612820C604000CBEA5 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		DB89BA642820D582000CBEA5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DB89BA672820D59E000CBEA5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB89BA6B2820DAA9000CBEA5 /* URLSession+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Ext.swift"; sourceTree = "<group>"; };
+		DBB578922820C52600B1C589 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		DBC4B1952820565E00D86E17 /* rates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rates.json; sourceTree = "<group>"; };
+		DBC4B198282056AE00D86E17 /* ConversionRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionRate.swift; sourceTree = "<group>"; };
+		DBC4B19C2820571400D86E17 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1146F92821C2680069BE6B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB1146F62821BD1B0069BE6B /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		DB2D24FD28204F3A00DA2D34 = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +121,15 @@
 			children = (
 				DB2D250928204F3B00DA2D34 /* AppDelegate.swift */,
 				DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */,
-				DB2D250D28204F3B00DA2D34 /* ViewController.swift */,
-				DB2D250F28204F3B00DA2D34 /* Main.storyboard */,
+				DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */,
 				DB2D251228204F3C00DA2D34 /* Assets.xcassets */,
 				DB2D251428204F3C00DA2D34 /* LaunchScreen.storyboard */,
 				DB2D251728204F3C00DA2D34 /* Info.plist */,
+				DB1146F92821C2680069BE6B /* ViewModels */,
+				DBC4B19A282056E100D86E17 /* Models */,
+				DBC4B19B282056F100D86E17 /* NetworkService */,
+				DB89BA6A2820D5A7000CBEA5 /* Resources */,
+				DBC4B1972820566100D86E17 /* Tests mock data */,
 			);
 			path = "uikit-concept";
 			sourceTree = "<group>";
@@ -92,9 +137,48 @@
 		DB2D251F28204F3C00DA2D34 /* uikit-conceptTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB2D252028204F3C00DA2D34 /* uikit_conceptTests.swift */,
+				DB2D252028204F3C00DA2D34 /* NetworkServiceTests.swift */,
+				DB1146FD2821D5A50069BE6B /* ProductsViewModelTests.swift */,
 			);
 			path = "uikit-conceptTests";
+			sourceTree = "<group>";
+		};
+		DB89BA6A2820D5A7000CBEA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB89BA672820D59E000CBEA5 /* Constants.swift */,
+				DB89BA6B2820DAA9000CBEA5 /* URLSession+Ext.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBC4B1972820566100D86E17 /* Tests mock data */ = {
+			isa = PBXGroup;
+			children = (
+				DB89BA612820C604000CBEA5 /* transactions.json */,
+				DBC4B1952820565E00D86E17 /* rates.json */,
+			);
+			path = "Tests mock data";
+			sourceTree = "<group>";
+		};
+		DBC4B19A282056E100D86E17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4B198282056AE00D86E17 /* ConversionRate.swift */,
+				DBB578922820C52600B1C589 /* Transaction.swift */,
+				DB1146FA2821C48E0069BE6B /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBC4B19B282056F100D86E17 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D2539282053E400DA2D34 /* NetworkService.swift */,
+				DBC4B19C2820571400D86E17 /* MockNetworkService.swift */,
+				DB89BA642820D582000CBEA5 /* Endpoint.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2D251628204F3C00DA2D34 /* LaunchScreen.storyboard in Resources */,
+				DB89BA622820C604000CBEA5 /* transactions.json in Resources */,
+				DBA9BAFC28205A190029DECF /* rates.json in Resources */,
 				DB2D251328204F3C00DA2D34 /* Assets.xcassets in Resources */,
-				DB2D251128204F3B00DA2D34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB89BA632820C604000CBEA5 /* transactions.json in Resources */,
+				DBC4B1962820565E00D86E17 /* rates.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2D250E28204F3B00DA2D34 /* ViewController.swift in Sources */,
+				DB1146F72821BD1B0069BE6B /* ProductsViewModel.swift in Sources */,
+				DB89BA652820D582000CBEA5 /* Endpoint.swift in Sources */,
+				DBC4B199282056AE00D86E17 /* ConversionRate.swift in Sources */,
+				DB2D250E28204F3B00DA2D34 /* ProductsViewController.swift in Sources */,
+				DB1146FB2821C48E0069BE6B /* Product.swift in Sources */,
 				DB2D250A28204F3B00DA2D34 /* AppDelegate.swift in Sources */,
+				DB2D253A282053E400DA2D34 /* NetworkService.swift in Sources */,
 				DB2D250C28204F3B00DA2D34 /* SceneDelegate.swift in Sources */,
+				DBB578932820C52600B1C589 /* Transaction.swift in Sources */,
+				DB89BA6C2820DAA9000CBEA5 /* URLSession+Ext.swift in Sources */,
+				DB89BA682820D59E000CBEA5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2D252128204F3C00DA2D34 /* uikit_conceptTests.swift in Sources */,
+				DB1146F32821A7EA0069BE6B /* ProductsViewController.swift in Sources */,
+				DB1146F82821BD1B0069BE6B /* ProductsViewModel.swift in Sources */,
+				DBC4B19E2820571A00D86E17 /* MockNetworkService.swift in Sources */,
+				DB1146FF2821D5A50069BE6B /* ProductsViewModelTests.swift in Sources */,
+				DBC4B1A0282057AC00D86E17 /* ConversionRate.swift in Sources */,
+				DBB578942820C58C00B1C589 /* Transaction.swift in Sources */,
+				DB1146FC2821C48E0069BE6B /* Product.swift in Sources */,
+				DBC4B19F2820573A00D86E17 /* NetworkService.swift in Sources */,
+				DB89BA692820D59E000CBEA5 /* Constants.swift in Sources */,
+				DB89BA662820D582000CBEA5 /* Endpoint.swift in Sources */,
+				DB2D252128204F3C00DA2D34 /* NetworkServiceTests.swift in Sources */,
+				DB89BA6D2820DAA9000CBEA5 /* URLSession+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB2D250F28204F3B00DA2D34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB2D251028204F3B00DA2D34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB2D251428204F3C00DA2D34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -368,7 +466,7 @@
 				INFOPLIST_FILE = "uikit-concept/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,7 +494,7 @@
 				INFOPLIST_FILE = "uikit-concept/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
