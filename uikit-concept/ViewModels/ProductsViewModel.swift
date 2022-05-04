@@ -12,8 +12,8 @@ import Foundation
     // MARK: - Properties
     
     private let networkService: NetworkProvider
+    private(set) var conversionRates = [ConversionRate]()
     @Published private(set) var products = [Product]()
-    
     
     // MARK: - Initializer
     
@@ -29,6 +29,15 @@ import Foundation
             products = parseTransactionsIntoProducts(transactions)
         } catch {
             NSLog("ProductsViewModel: Error loading transactions. \(error)")
+        }
+    }
+    
+    func loadConversionRates() async {
+        do {
+            let downloadedRates = try await networkService.loadConversionRates()
+            conversionRates = ConversionRateHelper.getAllConversionRates(from: downloadedRates)
+        } catch {
+            NSLog("ProductsViewModel: Error getting conversion rates. \(error)")
         }
     }
     

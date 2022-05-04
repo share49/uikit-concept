@@ -43,6 +43,7 @@ final class ProductsViewController: UIViewController {
         
         Task {
             await viewModel.loadProducts()
+            await viewModel.loadConversionRates()
         }
     }
     
@@ -77,7 +78,8 @@ final class ProductsViewController: UIViewController {
     }
 
     private func showProductDetailView(for product: Product) {
-        let productDetailView = ProductDetailView(product: product)
+        let productViewModel = ProductViewModel(with: product, conversionRates: viewModel.conversionRates)
+        let productDetailView = ProductDetailView(viewModel: productViewModel)
         let hostingController = UIHostingController(rootView: productDetailView)
         present(hostingController, animated: true)
     }

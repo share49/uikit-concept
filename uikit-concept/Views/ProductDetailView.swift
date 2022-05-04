@@ -9,19 +9,19 @@ import SwiftUI
 
 struct ProductDetailView: View {
     
-    @State var product: Product
+    @State var viewModel: ProductViewModel
     
     var body: some View {
         VStack {
-            HStack {
-                Text("Transactions for \(product.sku)")
-                Spacer()
-                Text("Total amount: €")
-            }.padding()
+            VStack() {
+                Text(viewModel.title)
+                    .font(.title)
+                Text(viewModel.formattedTotalAmount)
+            }.padding(.top)
             
             List {
-                ForEach(product.transactions) { transaction in
-                    Text("\(transaction.amount) \(transaction.currency.lowercased())")
+                ForEach(viewModel.product.transactions) { transaction in
+                    Text(transaction.description)
                 }
             }
         }
@@ -32,12 +32,13 @@ struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let transactions = [Transaction(sku: "123", amount: "12.95", currency: "EUR")]
         let product = Product(sku: "123", transactions: transactions)
+        let viewModel = ProductViewModel(with: product, conversionRates: [])
         
         Group {
-            ProductDetailView(product: product)
+            ProductDetailView(viewModel: viewModel)
                 .previewDevice("iPhone 13 max")
             
-            ProductDetailView(product: product)
+            ProductDetailView(viewModel: viewModel)
                 .preferredColorScheme(.dark)
                 .previewDevice("iPhone 13 mini")
         }

@@ -31,4 +31,9 @@ struct k {
     struct Cells {
         static let transactionCell = "transactionCell"
     }
+    
+    struct ProductViewModelStrings {
+        static let title = "Transactions for %@"
+        static let totalAmount = "Total amount: %@€"
+    }
 }

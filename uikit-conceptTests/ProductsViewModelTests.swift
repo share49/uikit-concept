@@ -10,10 +10,13 @@ import XCTest
 
 @MainActor class ProductsViewModelTests: XCTestCase {
     
+    // MARK: - Properties
+    let mockNetworkService = MockNetworkService()
+    
     // MARK: - Tests
     
     func testLoadProducts() async {
-        let viewModel = ProductsViewModel(with: MockNetworkService())
+        let viewModel = ProductsViewModel(with: mockNetworkService)
         await viewModel.loadProducts()
         
         // Assert that products are loaded and parsed
@@ -33,5 +36,11 @@ import XCTest
         
         XCTAssertEqual(lastProduct.sku, "Y2800")
         XCTAssertEqual(lastProduct.transactions.count, 2)
+    }
+    
+    func testLoadConversionRates() async {
+        let viewModel = ProductsViewModel(with: mockNetworkService)
+        await viewModel.loadConversionRates()
+        XCTAssertEqual(viewModel.conversionRates.count, 12)
     }
 }

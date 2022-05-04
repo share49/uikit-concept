@@ -15,6 +15,9 @@ struct Transaction: Decodable, Identifiable {
     let sku: String
     let amount: String
     let currency: String
+    var description: String {
+        "\(amount) \(currency.lowercased())"
+    }
     
     // MARK: - Coding keys
     
