@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import SwiftUI
 
 final class ProductsViewController: UIViewController {
     
@@ -74,6 +75,12 @@ final class ProductsViewController: UIViewController {
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: k.Cells.transactionCell)
     }
+
+    private func showProductDetailView(for product: Product) {
+        let productDetailView = ProductDetailView(product: product)
+        let hostingController = UIHostingController(rootView: productDetailView)
+        present(hostingController, animated: true)
+    }
 }
 
 // MARK: - UITableViewDataSource
@@ -94,6 +101,6 @@ extension ProductsViewController: UITableViewDataSource {
 extension ProductsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // TODO: Navigate to a detail view
+        showProductDetailView(for: viewModel.products[indexPath.row])
     }
 }

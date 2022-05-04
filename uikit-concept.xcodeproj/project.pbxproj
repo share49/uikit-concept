@@ -13,6 +13,8 @@
 		DB1146FB2821C48E0069BE6B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FA2821C48E0069BE6B /* Product.swift */; };
 		DB1146FC2821C48E0069BE6B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FA2821C48E0069BE6B /* Product.swift */; };
 		DB1146FF2821D5A50069BE6B /* ProductsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FD2821D5A50069BE6B /* ProductsViewModelTests.swift */; };
+		DB114701282200620069BE6B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB114700282200620069BE6B /* ProductDetailView.swift */; };
+		DB114702282211220069BE6B /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB114700282200620069BE6B /* ProductDetailView.swift */; };
 		DB2D250A28204F3B00DA2D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250928204F3B00DA2D34 /* AppDelegate.swift */; };
 		DB2D250C28204F3B00DA2D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */; };
 		DB2D250E28204F3B00DA2D34 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */; };
@@ -52,6 +54,7 @@
 		DB1146F62821BD1B0069BE6B /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		DB1146FA2821C48E0069BE6B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		DB1146FD2821D5A50069BE6B /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
+		DB114700282200620069BE6B /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		DB2D250628204F3B00DA2D34 /* uikit-concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-concept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2D250928204F3B00DA2D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 				DB2D250928204F3B00DA2D34 /* AppDelegate.swift */,
 				DB2D250B28204F3B00DA2D34 /* SceneDelegate.swift */,
 				DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */,
+				DB114700282200620069BE6B /* ProductDetailView.swift */,
 				DB2D251228204F3C00DA2D34 /* Assets.xcassets */,
 				DB2D251428204F3C00DA2D34 /* LaunchScreen.storyboard */,
 				DB2D251728204F3C00DA2D34 /* Info.plist */,
@@ -290,6 +294,7 @@
 				DBC4B199282056AE00D86E17 /* ConversionRate.swift in Sources */,
 				DB2D250E28204F3B00DA2D34 /* ProductsViewController.swift in Sources */,
 				DB1146FB2821C48E0069BE6B /* Product.swift in Sources */,
+				DB114701282200620069BE6B /* ProductDetailView.swift in Sources */,
 				DB2D250A28204F3B00DA2D34 /* AppDelegate.swift in Sources */,
 				DB2D253A282053E400DA2D34 /* NetworkService.swift in Sources */,
 				DB2D250C28204F3B00DA2D34 /* SceneDelegate.swift in Sources */,
@@ -313,6 +318,7 @@
 				DBC4B19F2820573A00D86E17 /* NetworkService.swift in Sources */,
 				DB89BA692820D59E000CBEA5 /* Constants.swift in Sources */,
 				DB89BA662820D582000CBEA5 /* Endpoint.swift in Sources */,
+				DB114702282211220069BE6B /* ProductDetailView.swift in Sources */,
 				DB2D252128204F3C00DA2D34 /* NetworkServiceTests.swift in Sources */,
 				DB89BA6D2820DAA9000CBEA5 /* URLSession+Ext.swift in Sources */,
 			);
