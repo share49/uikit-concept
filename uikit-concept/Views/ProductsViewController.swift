@@ -81,7 +81,7 @@ final class ProductsViewController: UIViewController {
         let productViewModel = ProductViewModel(with: product, conversionRates: viewModel.conversionRates)
         let productDetailView = ProductDetailView(viewModel: productViewModel)
         let hostingController = UIHostingController(rootView: productDetailView)
-        present(hostingController, animated: true)
+        navigationController?.pushViewController(hostingController, animated: true)
     }
 }
 

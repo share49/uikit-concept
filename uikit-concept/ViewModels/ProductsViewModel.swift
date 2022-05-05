@@ -24,6 +24,10 @@ import Foundation
     // MARK: - Load products
     
     func loadProducts() async {
+        guard products.isEmpty else {
+            return
+        }
+        
         do {
             let transactions = try await networkService.loadTransactions()
             products = parseTransactionsIntoProducts(transactions)
@@ -33,6 +37,10 @@ import Foundation
     }
     
     func loadConversionRates() async {
+        guard conversionRates.isEmpty else {
+            return
+        }
+        
         do {
             let downloadedRates = try await networkService.loadConversionRates()
             conversionRates = ConversionRateHelper.getAllConversionRates(from: downloadedRates)
