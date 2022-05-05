@@ -83,6 +83,8 @@
 		DB2D251C28204F3C00DA2D34 /* uikit-conceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uikit-conceptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2D252028204F3C00DA2D34 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
 		DB2D2539282053E400DA2D34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DB5D72F6282351A50064A6A3 /* InfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		DB5D72F7282351A50064A6A3 /* InfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		DB89BA612820C604000CBEA5 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
 		DB89BA642820D582000CBEA5 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		DB89BA672820D59E000CBEA5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				DB2D250D28204F3B00DA2D34 /* ProductsViewController.swift */,
 				DB114700282200620069BE6B /* ProductDetailView.swift */,
+				DB5D72F5282351A50064A6A3 /* Objective-C */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,15 @@
 				DB104F132822EB50002B9598 /* ConversionRateHelperTests.swift */,
 			);
 			path = "uikit-conceptTests";
+			sourceTree = "<group>";
+		};
+		DB5D72F5282351A50064A6A3 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				DB5D72F6282351A50064A6A3 /* InfoViewController.m */,
+				DB5D72F7282351A50064A6A3 /* InfoViewController.h */,
+			);
+			path = "Objective-C";
 			sourceTree = "<group>";
 		};
 		DB89BA6A2820D5A7000CBEA5 /* Resources */ = {
